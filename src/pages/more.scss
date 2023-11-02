@@ -1,0 +1,53 @@
+.more {
+  .title.head {
+    h1 {
+      font-size: 23.978px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    
+  }
+  .card-container {
+    // background-color: red;
+    display: flex;
+    overflow-y: scroll;
+    max-width: 180vh;
+    .link {
+      
+      .card {
+        margin: 9px;
+        height: 160px;
+        border: 3px solid #fff;
+        border-radius: 5px;
+
+        .img-card {
+         img {
+          height: 80px;
+          width: 80px;
+          border-radius: 50%;
+         }
+        }
+      }
+
+      .title-card {
+        // background-color: red;
+        width: 100px;
+
+        h1 {
+          margin-top: 20px;
+          font-size: 20px;
+          text-decoration: none;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: normal;
+          font-family: "Roboto", sans-serif;
+          display: flex;
+          justify-content: center;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
