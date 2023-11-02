@@ -1,0 +1,133 @@
+*{
+  background-color: #F0F7FF;
+  border-radius: 4px;
+  width: max-content;
+}
+
+.container-content-menus {
+  display: flex;
+  
+
+  .jarak {
+    width: 900px;
+  }
+  .content-menus {
+    // background-color: red;
+    margin-top: 3vh;
+    margin-left: 15vh;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    height: 70vh;
+
+    .container-right-content {
+      width: 100px;
+      margin-top: 8vh;
+      img {
+        width: 50vh;
+        height: 50vh;
+      }
+    }
+
+    .container-left-content {
+      width: 400px;
+      margin-left: 10px;
+      display: 70%;
+
+      .btn {
+        button {
+          background-color: gray;
+          height: 30px;
+          border-radius: 5px;
+          border: none;
+          box-shadow: #404040;
+          cursor: pointer;
+        }
+      }
+      
+      h1 {
+        color: #404040;
+        font-family: Archivo Narrow;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        margin-bottom: 16px;
+        margin-top: 10px;
+      }
+
+      p {
+        color: #404040;
+        font-family: Roboto;
+        font-size: 13.208px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 123.688%; /* 16.336px */
+        max-width: 400px;
+        max-height: 200px;
+        overflow-y: scroll;
+      }
+
+      .ing {
+        color: #969696;
+        font-family: Archivo Narrow;
+        font-size: 19.423px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .ingredient {
+        // background-color: red;
+        display: flex;
+        justify-content: space-between;
+        max-width: 350px;
+        margin-right: 10px;
+
+        .menus-top {
+          // background-color: pink;
+          display: flex;
+
+          img {
+            width: 49.393px;
+            height: 39.566px;
+            border: 2px solid #fff;
+          }
+
+          h5 {
+            color: #404040;
+            font-family: Roboto;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+          }
+
+          p {
+            color: #969696;
+            font-family: Roboto;
+            font-size: 8.124px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+          }
+        }
+      }
+
+    }
+  }
+
+  .lol {
+    background-color: red;
+    right: 0;
+    height: 100px;
+    width: 200px;
+    margin-top: 3vh;
+    margin-left: 15vh;
+    border: 10px solid #fff;
+    border-radius: 10px;
+    width: 500px;
+    display: flex;
+    height: 70vh;
+
+  }
+}

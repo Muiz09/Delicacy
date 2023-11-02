@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { callAPI } from "../api-url/api-url";
 import oil from '../assets/olive-oil 3.svg'
-// import "../style/detail.css";
+import "./detail.scss";
 export default function Detail() {
   const { id } = useParams();
   const [recipiesDisplay, setRecipiesDisplay] = useState({});
